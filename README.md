@@ -7,13 +7,14 @@ This repository contains SQL queries designed to analyze and manage data from a 
 ## Tables Schema
 
 ### Sales
-Column	Data Type	Description
-sales_id	INT	Unique identifier for sales
-customer_id	INT	Unique identifier for customers
-product_id	INT	Unique identifier for products
-sale_date	DATE	Date of the sale
-quantity	INT	Number of products sold
-total_amount	DECIMAL	Total amount of the sale
+| Column	     | Data Type	| Description
+|--------------|------------|----------------
+| sales_id	   |    INT	    |   Unique identifier for sales
+| customer_id  | 	  INT	    |   Unique identifier for customers
+| product_id	 |    INT	    |   Unique identifier for products
+| sale_date	   |    DATE	  |   Date of the sale
+| quantity	   |    INT	    |   Number of products sold
+| total_amount |	  DECIMAL	|   Total amount of the sale
 
 ### Customers
 Column	Data Type	Description
